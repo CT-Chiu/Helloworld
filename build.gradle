@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+mainClassName = 'com.cht.log.HelloWorld'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.21'
+}
